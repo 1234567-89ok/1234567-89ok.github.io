@@ -1,9 +1,5 @@
 .container {
-    display: flex;
     position: absolute;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
     width: 28vw;
     height: 38vh;
     top: 50%;
@@ -48,6 +44,8 @@
     border-radius: 0.1rem; /* 边框弧度 */
 }
 h1{
+    margin: 0.25rem;
+    text-align: center;
     color: black;
     font-size: 0.3rem;
     font-family: 楷体;
