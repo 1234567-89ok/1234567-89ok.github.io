@@ -129,7 +129,7 @@ span{
     transform:translate(-50%,-50%);
     background-color: rgba(255, 255, 255, 0.5); 
     border-radius: 10px;
-    line-height: 70px;  
+    align-items: center; 
     /* 一句旁白 */
 }
 a{
