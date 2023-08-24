@@ -116,7 +116,6 @@ span{
 }
 .text{
     display: flex;
-    text-align: center;
     justify-content: center;
     position: absolute;
     padding: 15px;
