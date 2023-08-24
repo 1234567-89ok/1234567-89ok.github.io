@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>红木嵌银</title>
     <link rel="stylesheet" href="./css/base.css">
-<link rel="stylesheet" href="./css/common.css">
+<script src="./common.js/1.js"></script>
 </head>
 <style>
     *{
@@ -19,13 +19,68 @@
         background-position: center center;
         background-attachment: fixed;
     }
+    .container {
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      width: 28vw;
+      height: 38vh;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      background-color: rgba(255, 255, 255, 0.5); 
+      border-radius: 0.2rem;
+      align-items: center; /* 将按钮盒子垂直居中 */
+  }
+  .button1 {
+      display: flex;
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+      width: 5vw;
+      height: 5vh;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      background-color: rgba(255, 255, 255, 0.7);
+      color: #000;
+      text-decoration: none;
+      font-size: 0.25rem;
+      font-family: 楷体;
+      border-radius: 0.1rem; /* 边框弧度 */
+  }
+  .button2 {
+      display: flex;
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+      width: 5vw;
+      height: 5vh;
+      top: 72%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      background-color: rgba(255, 255, 255, 0.7);
+      color: #000;
+      text-decoration: none;
+      font-size: 0.25rem;
+      font-family: 楷体;
+      border-radius: 0.1rem; /* 边框弧度 */
+  }
+  h1{
+      color: black;
+      font-size: 0.3rem;
+      font-family: 楷体;
+      /* 是否题目 */
+  }
 </style>
 <body>
     <div class="container ">
         <h1>是否走向首饰盒</h1>
         <br>
-        <a href="./5.1.1.html" class="button">是</a>
-        <a href="./5.2.1.html" class="button">否</a>
+        <a href="./5.1.1.html" class="button1">是</a>
+        <a href="./5.2.1.html" class="button2">否</a>
     </div>
 </body>
 </html>
